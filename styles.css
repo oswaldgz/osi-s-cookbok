@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6e6060; /* Light gray background color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: olive;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .recipe {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  .recipe:hover {
+    transform: scale(1.05); 
+  }
+  
+  .recipe h2 {
+    color: #000000;
+  }
+  
+  .recipe p {
+    color: #000000;
+  }
+  
+  .recipe ul {
+  list-style: none;
+    padding: 0;
+  }
+  
+  .recipe ul li {
+    margin-bottom: 5px;
+  }
+  
+  .recipe img {
+    max-width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease; /* Added transition effect */
+  }
+  
+  .recipe:hover img {
+    transform: scale(1.1); /* Scale up on hover */
+  }
+  
+  .details {
+    display: none;
+  }
+  
+  .details-toggle:checked + .details {
+    display: block;
+  }
+  
+  .details-btn {
+    display: block;
+    background-color: olive;
+    color: #000000;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .details-btn:hover {
+    background-color: #576700; /* Darker color on hover */
+  }
+  
+  
+  section {
+    text-align: center;
+    margin: 20px;
+  }
+  
